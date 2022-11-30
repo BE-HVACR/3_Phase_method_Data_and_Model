@@ -1,0 +1,35 @@
+# This is a table.
+# It is 0.85 m high and 1 by 1 m wide.
+# The centre is at (0,0).
+
+void plastic tablemat
+0
+0
+5  %table% %table% %table%  0 0
+
+void plastic tableleg
+0
+0
+5  .53 .55 .55  0 0
+
+!genbox tablemat tabletop 0.6858 1.524 .05 | xform -t 1.177925 0.9017  .7366
+
+tableleg cylinder leg1
+0
+0
+7  1.277925 1.0017 0  1.277925 1.0017 .7366  .025
+
+tableleg cylinder leg2
+0
+0
+7  1.277925 2.3257 0  1.277925 2.3257 .7366  .025
+
+tableleg cylinder leg3
+0
+0
+7  1.763725 1.0017 0  1.763725 1.0017 .7366  .025
+
+tableleg cylinder leg4
+0
+0
+7  1.763725 2.3257 0  1.763725 2.3257 .7366  .025

@@ -1,0 +1,16 @@
+#?RADIANCE
+rmtxop -fa -c 47.4 119.9 11.6 -
+dctimestep matrices/v.mtx matrices/clear.xml matrices/daylight.dmx skyVectors/0925/CSta_Per_H16_50.vec
+CAPDATE= 2022:10:17 02:56:47
+GMT= 2022:10:17 07:56:47
+Applied 1x3 component transform
+NROWS=5
+NCOLS=1
+NCOMP=1
+FORMAT=ascii
+
+ 6.002691683000000e+02	
+ 3.801476395000000e+02	
+ 7.302811887000000e+02	
+ 7.347328719999999e+02	
+ 7.934391667000001e+02	

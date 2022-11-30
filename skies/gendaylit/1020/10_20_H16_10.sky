@@ -1,0 +1,19 @@
+# C:\Radiance\bin\gendaylit 10 20 +15.000000000000002 -a 30.6 -o 96.3 -m 90 -W 443.118880204015 73.51912723076917
+# Local solar time: 15.00
+# Solar altitude and azimuth: 29.7 53.0
+# epsilon, delta, atmospheric precipitable water content : 3.7255 0.1071 2.0000 
+
+void light solar
+0
+0
+3 3.555e+06 3.555e+06 3.555e+06
+
+solar source sun
+0
+0
+4 -0.693147 -0.523027 0.495974 0.533000
+
+void brightfunc skyfunc
+2 skybright perezlum.cal
+0
+10 3.121e+01 9.541e+00 -1.135428 -0.305052 13.033673 -3.451640 0.332965 -0.693147 -0.523027 0.495974 

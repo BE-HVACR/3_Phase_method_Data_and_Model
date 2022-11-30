@@ -1,0 +1,17 @@
+#?RADIANCE
+rmtxop Results/1005_5M/3ph_H18_25_p1.ill + Results/1005_5M/3ph_H18_25_p2.ill
+rmtxop -fa -c 47.4 119.9 11.6 -
+dctimestep matrices/Case3/v1.mtx matrices/blinds_ven70.xml matrices/Case3/daylight1.dmx skyVectors/1005/CSta_Per_H18_25.vec
+CAPDATE= 2022:10:26 18:52:01
+GMT= 2022:10:26 23:52:01
+Applied 1x3 component transform
+NROWS=5
+NCOLS=1
+NCOMP=1
+FORMAT=ascii
+
+ 2.896626830200000e+01	
+ 1.962368336200000e+01	
+ 2.645567845500000e+01	
+ 3.173102278000000e+01	
+ 2.962878230000000e+01	

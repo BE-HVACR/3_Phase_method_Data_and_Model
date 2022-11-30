@@ -1,0 +1,7 @@
+### blinds.rad 
+void plastic white
+0
+0
+5 0.7 0.7 0.7 0 0 
+
+!genblinds white blinds 55 400 200 4 80 | xform -rz -90 -rx -90 -t 0 0 -17.37462

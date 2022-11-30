@@ -1,0 +1,8 @@
+# C:\Radiance\bin\gendaylit 10 20 +18.159999999999997 -a 30.6 -o 96.3 -m 90 -W 1.2878252200000024 2.1793314800000037
+# Local solar time: 18.16
+# Solar altitude and azimuth: -7.8 81.3
+
+void brightfunc skyfunc
+2 skybright perezlum.cal
+0
+10 0.00 0.00  0.000 0.000 0.000 0.000 0.000  -0.979399 -0.149290 -0.135980 

@@ -1,0 +1,9 @@
+# gensky 9 23 22:20CDT -a 30.6 -o 96.3 -m 90
+# Local solar time: 21.04
+# Solar altitude and azimuth: -38.6 116.5
+# Ground ambient level: 0.0
+
+void brightfunc skyfunc
+2 skybr skybright.cal
+0
+7 1 0.00e+00 0.00e+00 3.01e-01 -0.699911 0.348306 -0.623545
